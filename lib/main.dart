@@ -1,6 +1,4 @@
-import 'package:discite/app/UI/login_view.dart';
-import 'package:discite/app/UI/splash_view.dart';
-import 'package:discite/app/signIn.dart';
+import 'package:discite/app/UI/home_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Discite',
       theme: ThemeData(
       ),
-      home: LoginView(key: key),
+      home: HomeView(key: key),
     );
   }
 }

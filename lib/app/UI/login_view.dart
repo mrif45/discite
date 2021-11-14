@@ -11,10 +11,7 @@ class LoginView extends StatefulWidget {
 
 class _LoginViewState extends State<LoginView> {
   late TextEditingController textController1;
-  bool _loadingButton1 = false;
   late TextEditingController textController2;
-  bool _loadingButton2 = false;
-  bool _loadingButton3 = false;
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
