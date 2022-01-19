@@ -1,4 +1,4 @@
-import 'package:discite/app/UI/home_view.dart';
+import 'package:discite/app/UI/splash_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,9 +11,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Discite',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
       ),
-      home: HomeView(key: key),
+      home: SplashScreen(),
     );
   }
 }
